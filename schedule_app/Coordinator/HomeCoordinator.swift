@@ -41,7 +41,8 @@ class HomeCoordinator: Coordinator, HomeFlow {
     }
     
     func coordinateToThisWeekClass() {
-        
+        let thisWeekCoordinator = ThisWeekCoordinator(navigationController: navigationController!)
+        coordinate(to: thisWeekCoordinator)
     }
     
     func coordinateToTransferClasses() {

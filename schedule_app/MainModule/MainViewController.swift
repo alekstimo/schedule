@@ -16,7 +16,7 @@ class MainViewController: UIViewController {
         super.viewDidLoad()
         configureNavigationBar()
         configureTableView()
-        // Do any additional setup after loading the view.
+       
     }
 
     //MARK: - Configuration

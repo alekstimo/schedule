@@ -2,7 +2,7 @@
 //  ClassCollectionViewCell.swift
 //  schedule_app
 //
-//  Created by Кирилл Зезюков on 06.05.2023.
+//
 //
 
 import UIKit

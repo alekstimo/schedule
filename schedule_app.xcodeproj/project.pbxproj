@@ -55,8 +55,9 @@
 		6EDEFAF72A0E8BD1008C0F76 /* ThisWeekViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EDEFAF52A0E8BD1008C0F76 /* ThisWeekViewController.xib */; };
 		6EDEFAFB2A0E8C8C008C0F76 /* DayWeekTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EDEFAF92A0E8C8C008C0F76 /* DayWeekTableViewCell.swift */; };
 		6EDEFAFC2A0E8C8C008C0F76 /* DayWeekTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EDEFAFA2A0E8C8C008C0F76 /* DayWeekTableViewCell.xib */; };
-		6EDEFB002A0E8CCB008C0F76 /* ClassCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EDEFAFE2A0E8CCB008C0F76 /* ClassCollectionViewCell.swift */; };
-		6EDEFB012A0E8CCB008C0F76 /* ClassCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EDEFAFF2A0E8CCB008C0F76 /* ClassCollectionViewCell.xib */; };
+		6EDEFB042A0E8F1D008C0F76 /* InDayClassCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EDEFB022A0E8F1D008C0F76 /* InDayClassCollectionViewCell.swift */; };
+		6EDEFB052A0E8F1D008C0F76 /* InDayClassCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EDEFB032A0E8F1D008C0F76 /* InDayClassCollectionViewCell.xib */; };
+		6EDEFB072A0E98FB008C0F76 /* ThisWeekCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EDEFB062A0E98FB008C0F76 /* ThisWeekCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -110,8 +111,9 @@
 		6EDEFAF52A0E8BD1008C0F76 /* ThisWeekViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ThisWeekViewController.xib; sourceTree = "<group>"; };
 		6EDEFAF92A0E8C8C008C0F76 /* DayWeekTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayWeekTableViewCell.swift; sourceTree = "<group>"; };
 		6EDEFAFA2A0E8C8C008C0F76 /* DayWeekTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DayWeekTableViewCell.xib; sourceTree = "<group>"; };
-		6EDEFAFE2A0E8CCB008C0F76 /* ClassCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassCollectionViewCell.swift; sourceTree = "<group>"; };
-		6EDEFAFF2A0E8CCB008C0F76 /* ClassCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ClassCollectionViewCell.xib; sourceTree = "<group>"; };
+		6EDEFB022A0E8F1D008C0F76 /* InDayClassCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InDayClassCollectionViewCell.swift; sourceTree = "<group>"; };
+		6EDEFB032A0E8F1D008C0F76 /* InDayClassCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InDayClassCollectionViewCell.xib; sourceTree = "<group>"; };
+		6EDEFB062A0E98FB008C0F76 /* ThisWeekCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThisWeekCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -177,6 +179,7 @@
 				6EB619D12A0543DF008A9023 /* CheckInCoordinator.swift */,
 				6EBB16312A065DE800A59AF9 /* TodayAndTransferClassesCoordinator.swift */,
 				6EBB163F2A0E7D4400A59AF9 /* TransferClassCoordinator.swift */,
+				6EDEFB062A0E98FB008C0F76 /* ThisWeekCoordinator.swift */,
 			);
 			path = Coordinator;
 			sourceTree = "<group>";
@@ -361,8 +364,8 @@
 		6EDEFAFD2A0E8C98008C0F76 /* ClassCollectionCell */ = {
 			isa = PBXGroup;
 			children = (
-				6EDEFAFE2A0E8CCB008C0F76 /* ClassCollectionViewCell.swift */,
-				6EDEFAFF2A0E8CCB008C0F76 /* ClassCollectionViewCell.xib */,
+				6EDEFB022A0E8F1D008C0F76 /* InDayClassCollectionViewCell.swift */,
+				6EDEFB032A0E8F1D008C0F76 /* InDayClassCollectionViewCell.xib */,
 			);
 			path = ClassCollectionCell;
 			sourceTree = "<group>";
@@ -429,6 +432,7 @@
 				6E663AF02A05112E00843F3D /* DetailViewController.xib in Resources */,
 				6EBB16392A066D9800A59AF9 /* TransferClassViewController.xib in Resources */,
 				6E663ABC2A050C4800843F3D /* Assets.xcassets in Resources */,
+				6EDEFB052A0E8F1D008C0F76 /* InDayClassCollectionViewCell.xib in Resources */,
 				6EB619C92A053CEF008A9023 /* CheckStudentsViewController.xib in Resources */,
 				6EDEFAFC2A0E8C8C008C0F76 /* DayWeekTableViewCell.xib in Resources */,
 				6E663B032A05278F00843F3D /* MainViewController.xib in Resources */,
@@ -440,7 +444,6 @@
 				6EB619CE2A053D14008A9023 /* CheckStudentTableViewCell.xib in Resources */,
 				6EBB162B2A0656F200A59AF9 /* TodayClassesViewController.xib in Resources */,
 				6E663AFF2A05251B00843F3D /* MenuTableViewCell.xib in Resources */,
-				6EDEFB012A0E8CCB008C0F76 /* ClassCollectionViewCell.xib in Resources */,
 				6EDEFAF72A0E8BD1008C0F76 /* ThisWeekViewController.xib in Resources */,
 				6E663AFA2A05132400843F3D /* LogInViewController.xib in Resources */,
 			);
@@ -464,6 +467,7 @@
 				6E663AD22A05108F00843F3D /* DetailCoordinator.swift in Sources */,
 				6E663ADA2A05108F00843F3D /* Coordnator.swift in Sources */,
 				6E663AD52A05108F00843F3D /* TabBarCoordinator.swift in Sources */,
+				6EDEFB042A0E8F1D008C0F76 /* InDayClassCollectionViewCell.swift in Sources */,
 				6E663AEB2A05111B00843F3D /* ProfileViewController.swift in Sources */,
 				6E663AF42A05115D00843F3D /* TabBarModel.swift in Sources */,
 				6EDD34772A05332900B99399 /* NowClassViewController.swift in Sources */,
@@ -474,8 +478,8 @@
 				6EBB16322A065DE800A59AF9 /* TodayAndTransferClassesCoordinator.swift in Sources */,
 				6EB619C82A053CEF008A9023 /* CheckStudentsViewController.swift in Sources */,
 				6E663AD62A05108F00843F3D /* StartCoordinator.swift in Sources */,
-				6EDEFB002A0E8CCB008C0F76 /* ClassCollectionViewCell.swift in Sources */,
 				6EBB162A2A0656F200A59AF9 /* TodayClassesViewController.swift in Sources */,
+				6EDEFB072A0E98FB008C0F76 /* ThisWeekCoordinator.swift in Sources */,
 				6EBB16402A0E7D4400A59AF9 /* TransferClassCoordinator.swift in Sources */,
 				6E663AFE2A05251B00843F3D /* MenuTableViewCell.swift in Sources */,
 				6EBB163D2A066DBA00A59AF9 /* ClassCollectionViewCell.swift in Sources */,

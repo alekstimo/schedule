@@ -47,7 +47,7 @@ class ClassTableViewCell: UITableViewCell {
     }
 
     @IBAction func transferButtonTouched(_ sender: Any) {
-        NotificationCenter.default.post(name: NSNotification.Name("transfer"), object: Any?.self)
+        NotificationCenter.default.post(name: NSNotification.Name("TodayAndTransferTransferClass"), object: Any?.self)
     }
     
     

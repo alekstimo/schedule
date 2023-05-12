@@ -25,11 +25,11 @@ class TodayClassesViewController: UIViewController {
         super.viewDidLoad()
         configureTableView()
         configureNavigationBar()
-        NotificationCenter.default.addObserver(self, selector: #selector(transfer), name: NSNotification.Name("transfer"), object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(TodayAndTransferTransferClass), name: NSNotification.Name("TodayAndTransferTransferClass"), object: nil)
         
     }
     
-    @objc func transfer(notification: NSNotification) {
+    @objc func TodayAndTransferTransferClass(notification: NSNotification) {
         coordinator?.coordinateToTransfer()
     }
     
