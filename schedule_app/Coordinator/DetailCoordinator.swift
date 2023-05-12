@@ -2,13 +2,19 @@
 //  DetailCoordinator.swift
 //  intro_case
 //
-//  Created by Кирилл Зезюков on 25.03.2023.
+//  
 //
 
 import Foundation
 import UIKit
 
-class DetailCoordinator: Coordinator {
+protocol DetailFlow: class {
+    func coordinateToTransfer()
+}
+
+class DetailCoordinator: Coordinator, DetailFlow {
+    
+    
     weak var navigationController: UINavigationController?
     
     init(navigationController: UINavigationController){
@@ -21,6 +27,11 @@ class DetailCoordinator: Coordinator {
         detailViewController.coordinator = self
         
         navigationController?.pushViewController(detailViewController, animated: true)
+    }
+    
+    func coordinateToTransfer() {
+        let transferCoordinator = TransferClassCoordinator(navigationController: navigationController!)
+        coordinate(to: transferCoordinator)
     }
    
 }

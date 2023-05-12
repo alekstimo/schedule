@@ -95,11 +95,11 @@ extension MainViewController: UITableViewDataSource, UITableViewDelegate {
         case 0:
             coordinator?.coordinateToNowClass()
         case 1:
-            coordinator?.coordinateToNowClass()
+            coordinator?.coordinateToTodayClass()
         case 2:
-            coordinator?.coordinateToNowClass()
+            coordinator?.coordinateToThisWeekClass()
         case 3:
-            coordinator?.coordinateToNowClass()
+            coordinator?.coordinateToTransferClasses()
         default:
             return
         }

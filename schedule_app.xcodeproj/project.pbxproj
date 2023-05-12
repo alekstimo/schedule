@@ -39,8 +39,24 @@
 		6EB619CE2A053D14008A9023 /* CheckStudentTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EB619CC2A053D14008A9023 /* CheckStudentTableViewCell.xib */; };
 		6EB619D02A0542D3008A9023 /* NowClassCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB619CF2A0542D3008A9023 /* NowClassCoordinator.swift */; };
 		6EB619D22A0543DF008A9023 /* CheckInCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB619D12A0543DF008A9023 /* CheckInCoordinator.swift */; };
+		6EBB162A2A0656F200A59AF9 /* TodayClassesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBB16282A0656F200A59AF9 /* TodayClassesViewController.swift */; };
+		6EBB162B2A0656F200A59AF9 /* TodayClassesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EBB16292A0656F200A59AF9 /* TodayClassesViewController.xib */; };
+		6EBB162F2A06571500A59AF9 /* ClassTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBB162D2A06571500A59AF9 /* ClassTableViewCell.swift */; };
+		6EBB16302A06571500A59AF9 /* ClassTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EBB162E2A06571500A59AF9 /* ClassTableViewCell.xib */; };
+		6EBB16322A065DE800A59AF9 /* TodayAndTransferClassesCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBB16312A065DE800A59AF9 /* TodayAndTransferClassesCoordinator.swift */; };
+		6EBB16382A066D9800A59AF9 /* TransferClassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBB16362A066D9800A59AF9 /* TransferClassViewController.swift */; };
+		6EBB16392A066D9800A59AF9 /* TransferClassViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EBB16372A066D9800A59AF9 /* TransferClassViewController.xib */; };
+		6EBB163D2A066DBA00A59AF9 /* ClassCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBB163B2A066DBA00A59AF9 /* ClassCollectionViewCell.swift */; };
+		6EBB163E2A066DBA00A59AF9 /* ClassCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EBB163C2A066DBA00A59AF9 /* ClassCollectionViewCell.xib */; };
+		6EBB16402A0E7D4400A59AF9 /* TransferClassCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBB163F2A0E7D4400A59AF9 /* TransferClassCoordinator.swift */; };
 		6EDD34772A05332900B99399 /* NowClassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EDD34752A05332900B99399 /* NowClassViewController.swift */; };
 		6EDD34782A05332900B99399 /* NowClassViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EDD34762A05332900B99399 /* NowClassViewController.xib */; };
+		6EDEFAF62A0E8BD1008C0F76 /* ThisWeekViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EDEFAF42A0E8BD1008C0F76 /* ThisWeekViewController.swift */; };
+		6EDEFAF72A0E8BD1008C0F76 /* ThisWeekViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EDEFAF52A0E8BD1008C0F76 /* ThisWeekViewController.xib */; };
+		6EDEFAFB2A0E8C8C008C0F76 /* DayWeekTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EDEFAF92A0E8C8C008C0F76 /* DayWeekTableViewCell.swift */; };
+		6EDEFAFC2A0E8C8C008C0F76 /* DayWeekTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EDEFAFA2A0E8C8C008C0F76 /* DayWeekTableViewCell.xib */; };
+		6EDEFB002A0E8CCB008C0F76 /* ClassCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EDEFAFE2A0E8CCB008C0F76 /* ClassCollectionViewCell.swift */; };
+		6EDEFB012A0E8CCB008C0F76 /* ClassCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EDEFAFF2A0E8CCB008C0F76 /* ClassCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -78,8 +94,24 @@
 		6EB619CC2A053D14008A9023 /* CheckStudentTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CheckStudentTableViewCell.xib; sourceTree = "<group>"; };
 		6EB619CF2A0542D3008A9023 /* NowClassCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowClassCoordinator.swift; sourceTree = "<group>"; };
 		6EB619D12A0543DF008A9023 /* CheckInCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckInCoordinator.swift; sourceTree = "<group>"; };
+		6EBB16282A0656F200A59AF9 /* TodayClassesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayClassesViewController.swift; sourceTree = "<group>"; };
+		6EBB16292A0656F200A59AF9 /* TodayClassesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TodayClassesViewController.xib; sourceTree = "<group>"; };
+		6EBB162D2A06571500A59AF9 /* ClassTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassTableViewCell.swift; sourceTree = "<group>"; };
+		6EBB162E2A06571500A59AF9 /* ClassTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ClassTableViewCell.xib; sourceTree = "<group>"; };
+		6EBB16312A065DE800A59AF9 /* TodayAndTransferClassesCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayAndTransferClassesCoordinator.swift; sourceTree = "<group>"; };
+		6EBB16362A066D9800A59AF9 /* TransferClassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferClassViewController.swift; sourceTree = "<group>"; };
+		6EBB16372A066D9800A59AF9 /* TransferClassViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TransferClassViewController.xib; sourceTree = "<group>"; };
+		6EBB163B2A066DBA00A59AF9 /* ClassCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassCollectionViewCell.swift; sourceTree = "<group>"; };
+		6EBB163C2A066DBA00A59AF9 /* ClassCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ClassCollectionViewCell.xib; sourceTree = "<group>"; };
+		6EBB163F2A0E7D4400A59AF9 /* TransferClassCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferClassCoordinator.swift; sourceTree = "<group>"; };
 		6EDD34752A05332900B99399 /* NowClassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowClassViewController.swift; sourceTree = "<group>"; };
 		6EDD34762A05332900B99399 /* NowClassViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NowClassViewController.xib; sourceTree = "<group>"; };
+		6EDEFAF42A0E8BD1008C0F76 /* ThisWeekViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThisWeekViewController.swift; sourceTree = "<group>"; };
+		6EDEFAF52A0E8BD1008C0F76 /* ThisWeekViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ThisWeekViewController.xib; sourceTree = "<group>"; };
+		6EDEFAF92A0E8C8C008C0F76 /* DayWeekTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayWeekTableViewCell.swift; sourceTree = "<group>"; };
+		6EDEFAFA2A0E8C8C008C0F76 /* DayWeekTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DayWeekTableViewCell.xib; sourceTree = "<group>"; };
+		6EDEFAFE2A0E8CCB008C0F76 /* ClassCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassCollectionViewCell.swift; sourceTree = "<group>"; };
+		6EDEFAFF2A0E8CCB008C0F76 /* ClassCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ClassCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,8 +144,8 @@
 		6E663AAE2A050C3F00843F3D /* schedule_app */ = {
 			isa = PBXGroup;
 			children = (
-				6EDD34732A05329700B99399 /* TeacherModule */,
-				6EDD34722A05328900B99399 /* StudentModule */,
+				6EBB16352A066D7500A59AF9 /* TransferClassModule */,
+				6EBB16262A0656AE00A59AF9 /* ClassesModule */,
 				6E663AF62A0512BE00843F3D /* AutorizationModule */,
 				6E663AF12A05115D00843F3D /* TabBar */,
 				6E663AE02A0510CF00843F3D /* DetailModule */,
@@ -143,6 +175,8 @@
 				6E663AD12A05108E00843F3D /* ScheduleCoordinator.swift */,
 				6EB619CF2A0542D3008A9023 /* NowClassCoordinator.swift */,
 				6EB619D12A0543DF008A9023 /* CheckInCoordinator.swift */,
+				6EBB16312A065DE800A59AF9 /* TodayAndTransferClassesCoordinator.swift */,
+				6EBB163F2A0E7D4400A59AF9 /* TransferClassCoordinator.swift */,
 			);
 			path = Coordinator;
 			sourceTree = "<group>";
@@ -230,6 +264,55 @@
 			path = CheckStudentCell;
 			sourceTree = "<group>";
 		};
+		6EBB16262A0656AE00A59AF9 /* ClassesModule */ = {
+			isa = PBXGroup;
+			children = (
+				6EDEFAF32A0E8B9E008C0F76 /* ThisWeekModule */,
+				6EBB16272A0656CB00A59AF9 /* TodayAndTransferModule */,
+				6EDD34722A05328900B99399 /* StudentModule */,
+				6EDD34732A05329700B99399 /* TeacherModule */,
+			);
+			path = ClassesModule;
+			sourceTree = "<group>";
+		};
+		6EBB16272A0656CB00A59AF9 /* TodayAndTransferModule */ = {
+			isa = PBXGroup;
+			children = (
+				6EBB162C2A0656F900A59AF9 /* ClassCell */,
+				6EBB16282A0656F200A59AF9 /* TodayClassesViewController.swift */,
+				6EBB16292A0656F200A59AF9 /* TodayClassesViewController.xib */,
+			);
+			path = TodayAndTransferModule;
+			sourceTree = "<group>";
+		};
+		6EBB162C2A0656F900A59AF9 /* ClassCell */ = {
+			isa = PBXGroup;
+			children = (
+				6EBB162D2A06571500A59AF9 /* ClassTableViewCell.swift */,
+				6EBB162E2A06571500A59AF9 /* ClassTableViewCell.xib */,
+			);
+			path = ClassCell;
+			sourceTree = "<group>";
+		};
+		6EBB16352A066D7500A59AF9 /* TransferClassModule */ = {
+			isa = PBXGroup;
+			children = (
+				6EBB163A2A066D9D00A59AF9 /* ClassCell */,
+				6EBB16362A066D9800A59AF9 /* TransferClassViewController.swift */,
+				6EBB16372A066D9800A59AF9 /* TransferClassViewController.xib */,
+			);
+			path = TransferClassModule;
+			sourceTree = "<group>";
+		};
+		6EBB163A2A066D9D00A59AF9 /* ClassCell */ = {
+			isa = PBXGroup;
+			children = (
+				6EBB163B2A066DBA00A59AF9 /* ClassCollectionViewCell.swift */,
+				6EBB163C2A066DBA00A59AF9 /* ClassCollectionViewCell.xib */,
+			);
+			path = ClassCell;
+			sourceTree = "<group>";
+		};
 		6EDD34722A05328900B99399 /* StudentModule */ = {
 			isa = PBXGroup;
 			children = (
@@ -253,6 +336,35 @@
 				6EDD34762A05332900B99399 /* NowClassViewController.xib */,
 			);
 			path = NowClassModule;
+			sourceTree = "<group>";
+		};
+		6EDEFAF32A0E8B9E008C0F76 /* ThisWeekModule */ = {
+			isa = PBXGroup;
+			children = (
+				6EDEFAF82A0E8C64008C0F76 /* DayWeekTableCell */,
+				6EDEFAF42A0E8BD1008C0F76 /* ThisWeekViewController.swift */,
+				6EDEFAF52A0E8BD1008C0F76 /* ThisWeekViewController.xib */,
+			);
+			path = ThisWeekModule;
+			sourceTree = "<group>";
+		};
+		6EDEFAF82A0E8C64008C0F76 /* DayWeekTableCell */ = {
+			isa = PBXGroup;
+			children = (
+				6EDEFAFD2A0E8C98008C0F76 /* ClassCollectionCell */,
+				6EDEFAF92A0E8C8C008C0F76 /* DayWeekTableViewCell.swift */,
+				6EDEFAFA2A0E8C8C008C0F76 /* DayWeekTableViewCell.xib */,
+			);
+			path = DayWeekTableCell;
+			sourceTree = "<group>";
+		};
+		6EDEFAFD2A0E8C98008C0F76 /* ClassCollectionCell */ = {
+			isa = PBXGroup;
+			children = (
+				6EDEFAFE2A0E8CCB008C0F76 /* ClassCollectionViewCell.swift */,
+				6EDEFAFF2A0E8CCB008C0F76 /* ClassCollectionViewCell.xib */,
+			);
+			path = ClassCollectionCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -315,14 +427,21 @@
 			files = (
 				6E663ABF2A050C4800843F3D /* LaunchScreen.storyboard in Resources */,
 				6E663AF02A05112E00843F3D /* DetailViewController.xib in Resources */,
+				6EBB16392A066D9800A59AF9 /* TransferClassViewController.xib in Resources */,
 				6E663ABC2A050C4800843F3D /* Assets.xcassets in Resources */,
 				6EB619C92A053CEF008A9023 /* CheckStudentsViewController.xib in Resources */,
+				6EDEFAFC2A0E8C8C008C0F76 /* DayWeekTableViewCell.xib in Resources */,
 				6E663B032A05278F00843F3D /* MainViewController.xib in Resources */,
+				6EBB163E2A066DBA00A59AF9 /* ClassCollectionViewCell.xib in Resources */,
 				6E663AEC2A05111B00843F3D /* ProfileViewController.xib in Resources */,
 				6E663AE82A05110900843F3D /* ScheduleViewController.xib in Resources */,
 				6EDD34782A05332900B99399 /* NowClassViewController.xib in Resources */,
+				6EBB16302A06571500A59AF9 /* ClassTableViewCell.xib in Resources */,
 				6EB619CE2A053D14008A9023 /* CheckStudentTableViewCell.xib in Resources */,
+				6EBB162B2A0656F200A59AF9 /* TodayClassesViewController.xib in Resources */,
 				6E663AFF2A05251B00843F3D /* MenuTableViewCell.xib in Resources */,
+				6EDEFB012A0E8CCB008C0F76 /* ClassCollectionViewCell.xib in Resources */,
+				6EDEFAF72A0E8BD1008C0F76 /* ThisWeekViewController.xib in Resources */,
 				6E663AFA2A05132400843F3D /* LogInViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -338,6 +457,7 @@
 				6E663AE72A05110900843F3D /* ScheduleViewController.swift in Sources */,
 				6E663AEF2A05112E00843F3D /* DetailViewController.swift in Sources */,
 				6E663AF92A05132400843F3D /* LogInViewController.swift in Sources */,
+				6EDEFAF62A0E8BD1008C0F76 /* ThisWeekViewController.swift in Sources */,
 				6EB619D22A0543DF008A9023 /* CheckInCoordinator.swift in Sources */,
 				6E663AD32A05108F00843F3D /* ProfileCoordinator.swift in Sources */,
 				6E663ADB2A05108F00843F3D /* MainCoordinator.swift in Sources */,
@@ -349,13 +469,21 @@
 				6EDD34772A05332900B99399 /* NowClassViewController.swift in Sources */,
 				6E663AF52A05115D00843F3D /* TabBarController.swift in Sources */,
 				6E663AB02A050C3F00843F3D /* AppDelegate.swift in Sources */,
+				6EDEFAFB2A0E8C8C008C0F76 /* DayWeekTableViewCell.swift in Sources */,
 				6EB619CD2A053D14008A9023 /* CheckStudentTableViewCell.swift in Sources */,
+				6EBB16322A065DE800A59AF9 /* TodayAndTransferClassesCoordinator.swift in Sources */,
 				6EB619C82A053CEF008A9023 /* CheckStudentsViewController.swift in Sources */,
 				6E663AD62A05108F00843F3D /* StartCoordinator.swift in Sources */,
+				6EDEFB002A0E8CCB008C0F76 /* ClassCollectionViewCell.swift in Sources */,
+				6EBB162A2A0656F200A59AF9 /* TodayClassesViewController.swift in Sources */,
+				6EBB16402A0E7D4400A59AF9 /* TransferClassCoordinator.swift in Sources */,
 				6E663AFE2A05251B00843F3D /* MenuTableViewCell.swift in Sources */,
+				6EBB163D2A066DBA00A59AF9 /* ClassCollectionViewCell.swift in Sources */,
 				6E663AD92A05108F00843F3D /* HomeCoordinator.swift in Sources */,
+				6EBB16382A066D9800A59AF9 /* TransferClassViewController.swift in Sources */,
 				6E663B022A05278F00843F3D /* MainViewController.swift in Sources */,
 				6E663ABA2A050C3F00843F3D /* schedule_app.xcdatamodeld in Sources */,
+				6EBB162F2A06571500A59AF9 /* ClassTableViewCell.swift in Sources */,
 				6E663ADC2A05108F00843F3D /* ScheduleCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
