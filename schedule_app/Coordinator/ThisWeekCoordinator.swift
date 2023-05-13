@@ -10,7 +10,7 @@ import UIKit
 
 
 class ThisWeekCoordinator: Coordinator, TodayAndTransferFlow {
-    
+
     weak var navigationController: UINavigationController?
     init(navigationController: UINavigationController){
         self.navigationController = navigationController
@@ -27,8 +27,8 @@ class ThisWeekCoordinator: Coordinator, TodayAndTransferFlow {
         let transferCoordinator = TransferClassCoordinator(navigationController: navigationController!)
         coordinate(to: transferCoordinator)
     }
-    func coordinateToDetail() {
-        let detailCoordinator = DetailCoordinator(navigationController: navigationController!)
+    func coordinateToDetail(date: Date) {
+        let detailCoordinator = DetailCoordinator(navigationController: navigationController!,date: date)
         coordinate(to: detailCoordinator)
     }
    

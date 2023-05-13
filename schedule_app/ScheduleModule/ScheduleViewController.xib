@@ -3,12 +3,17 @@
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ScheduleViewController" customModule="schedule_app" customModuleProvider="target">
             <connections>
+                <outlet property="collectionView" destination="4xl-yV-bTf" id="Lbf-KZ-EH9"/>
+                <outlet property="filterButton" destination="Kgg-QN-jMd" id="aqn-md-5l7"/>
+                <outlet property="monthLabel" destination="HW6-lM-bLZ" id="jA8-4B-9nI"/>
+                <outlet property="titleView" destination="IDz-Db-rUO" id="ASN-wk-1rc"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -16,9 +21,73 @@
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
             <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IDz-Db-rUO">
+                    <rect key="frame" x="0.0" y="0.0" width="393" height="161"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="КАЛЕНДАРЬ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ECR-Ao-S1D">
+                            <rect key="frame" x="20.000000000000007" y="80" width="102.66666666666669" height="21"/>
+                            <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                            <color key="textColor" name="redColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HW6-lM-bLZ">
+                            <rect key="frame" x="20" y="107" width="57" height="27.666666666666657"/>
+                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="23"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="HW6-lM-bLZ" firstAttribute="leading" secondItem="IDz-Db-rUO" secondAttribute="leading" constant="20" id="Sbs-av-ERt"/>
+                        <constraint firstItem="ECR-Ao-S1D" firstAttribute="leading" secondItem="IDz-Db-rUO" secondAttribute="leading" constant="20" id="W8P-yG-jqT"/>
+                        <constraint firstItem="ECR-Ao-S1D" firstAttribute="top" secondItem="IDz-Db-rUO" secondAttribute="top" constant="80" id="XXA-Jd-4Oc"/>
+                        <constraint firstAttribute="height" constant="161" id="kiR-ge-dnD"/>
+                        <constraint firstItem="HW6-lM-bLZ" firstAttribute="top" secondItem="ECR-Ao-S1D" secondAttribute="bottom" constant="6" id="pIN-m7-PXP"/>
+                    </constraints>
+                </view>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="4xl-yV-bTf">
+                    <rect key="frame" x="0.0" y="195" width="393" height="363"/>
+                    <color key="backgroundColor" red="1" green="0.54117647059999996" blue="0.50196078430000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="gkU-di-nK7">
+                        <size key="itemSize" width="128" height="128"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                </collectionView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kgg-QN-jMd">
+                    <rect key="frame" x="35" y="755" width="323" height="35"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <color key="tintColor" red="0.027450980390000001" green="0.023529411760000001" blue="0.015686274510000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" title="Фильтровать"/>
+                    <connections>
+                        <action selector="filterButtonTouched:" destination="-1" eventType="touchUpInside" id="OaE-mF-D2G"/>
+                    </connections>
+                </button>
+            </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
-            <color key="backgroundColor" red="0.97647058819999999" green="0.2274509804" blue="0.2274509804" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+            <color key="backgroundColor" red="1" green="0.54117647059999996" blue="0.50196078430000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="Kgg-QN-jMd" secondAttribute="bottom" constant="28" id="9qe-ct-VVu"/>
+                <constraint firstItem="IDz-Db-rUO" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="FPT-JH-0qq"/>
+                <constraint firstItem="4xl-yV-bTf" firstAttribute="top" secondItem="IDz-Db-rUO" secondAttribute="bottom" constant="34" id="HD6-Mr-1ZP"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="4xl-yV-bTf" secondAttribute="trailing" id="Pix-Kt-4ba"/>
+                <constraint firstItem="IDz-Db-rUO" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="St0-VD-dBz"/>
+                <constraint firstItem="Kgg-QN-jMd" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="35" id="UQg-an-98L"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Kgg-QN-jMd" secondAttribute="trailing" constant="35" id="Vuz-ux-qyv"/>
+                <constraint firstItem="4xl-yV-bTf" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="bz6-hX-4f6"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="IDz-Db-rUO" secondAttribute="trailing" id="eUf-Fe-iu0"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="4xl-yV-bTf" secondAttribute="bottom" constant="260" id="uoT-za-Xcg"/>
+            </constraints>
             <point key="canvasLocation" x="112" y="20"/>
         </view>
     </objects>
+    <resources>
+        <namedColor name="redColor">
+            <color red="0.94509803921568625" green="0.33725490196078434" blue="0.29019607843137257" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
 </document>

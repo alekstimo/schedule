@@ -26,7 +26,7 @@ class ThisWeekViewController: UIViewController {
         coordinator?.coordinateToTransfer()
     }
     @objc func ThisWeekDetail(notification: NSNotification) {
-        coordinator?.coordinateToDetail()
+        coordinator?.coordinateToDetail(date: Date())
     }
     //MARK: - Configuration
     private func configureNavigationBar() {

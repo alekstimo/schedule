@@ -18,6 +18,7 @@ class TodayClassesViewController: UIViewController {
     
     var classesArray = [Class(name: "Дифференциальные уравнения", time: "13:25 - 15:00", number: "324"),Class(name: "Дифференциальные уравнения", time: "13:25 - 15:00", number: "324"),Class(name: "Дифференциальные уравнения", time: "13:25 - 15:00", number: "324"),Class(name: "Дифференциальные уравнения", time: "13:25 - 15:00", number: "324"),Class(name: "Дифференциальные уравнения", time: "13:25 - 15:00", number: "324"),Class(name: "Дифференциальные уравнения", time: "13:25 - 15:00", number: "324"),Class(name: "Дифференциальные уравнения", time: "13:25 - 15:00", number: "324")]
     var navigationTitle = " "
+    var currentDate = Date()
     @IBOutlet weak var searchBar: UITextField!
     @IBOutlet weak var tableView: UITableView!
     var coordinator: TodayAndTransferClassesCoordinator?
@@ -76,12 +77,16 @@ extension TodayClassesViewController: UITableViewDataSource, UITableViewDelegate
                 cell.title = classesArray[indexPath.row].name
                 cell.time = classesArray[indexPath.row].time
                 cell.classNumber = classesArray[indexPath.row].number
+                
+                if currentDate < Calendar.current.date(byAdding: .day, value: 1,to: Date())! {
+                    cell.thisDateIsGone()
+                }
             }
             return cell ?? UITableViewCell()
         
     }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        coordinator?.coordinateToDetail()
+        coordinator?.coordinateToDetail(date: currentDate)
     }
 }
 

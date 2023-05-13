@@ -23,6 +23,7 @@ class DetailViewController: UIViewController {
     @IBOutlet weak var dateLabel: UILabel!
     
     //MARK: - Properties
+    var currentDate = Date()
     var titleText: String = ""{
         didSet {
             titleLabel.text = titleText
@@ -55,7 +56,7 @@ class DetailViewController: UIViewController {
     }
     var classNumber: String = ""{
         didSet {
-            classNumberLabel.text = "Аудитирия: " +  classNumber
+            classNumberLabel.text = "Аудитория: " +  classNumber
         }
     }
     override func viewDidLoad() {
@@ -72,18 +73,28 @@ class DetailViewController: UIViewController {
         titleText = "Дифференциальные уравнения"
         type = "Лекция"
         cours = "3"
-        date = "06.05.2023"
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "dd.MM.yy"
+        let dateString = dateFormatter.string(from: currentDate)
+        date = dateString
         time = "13:25 - 15:00"
         classNumber = "234"
         group = "10"
+        if currentDate < Date() {
+            transferButton.isHidden = true
+        }
     }
     @IBAction func transferButtonTouched(_ sender: Any) {
         coordinator?.coordinateToTransfer()
     }
-    
+    //TODO: - Поправить сравнение дат тут и в табличном 
     //MARK: - Configuration
     private func configureNavigationBar() {
-        navigationItem.title = "ПРЕДСТОЯЩЕЕ ЗАНЯТИЕ"
+        if currentDate <= Date() {
+            navigationItem.title = "ПРОШЕДШЕЕ ЗАНЯТИЕ"
+        } else {
+            navigationItem.title = "ПРЕДСТОЯЩЕЕ ЗАНЯТИЕ"
+        }
         let leftArroy = UIBarButtonItem(image:resizeImage(image: UIImage(named: "backArrow")!, targetSize: CGSize.init(width: 25, height: 25)),
                                          style: .plain,
                                         target: navigationController,

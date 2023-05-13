@@ -9,7 +9,7 @@ import Foundation
 import UIKit
 
 protocol ScheduleFlow: class {
-    func coordinateToDetail()
+    func coordinateToDetail(date: Date)
     //Поиск и пр
 }
 
@@ -28,8 +28,11 @@ class ScheduleCoordinator: Coordinator, ScheduleFlow {
         navigationController?.pushViewController(scheduleViewController, animated: false)
     }
     //MARK: - Flow Methods
-    func coordinateToDetail() {
-//        let detailCoordinator = DetailCoordinator(navigationController: navigationController)
-//        coordinate(to: detailCoordinator)
+    func coordinateToDetail(date: Date) {
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "d MMM, yyyy"
+        let dateString = dateFormatter.string(from: date)
+        let thisDayClassCoordinator = TodayAndTransferClassesCoordinator(navigationController: navigationController!, title: dateString,date: date)
+        coordinate(to: thisDayClassCoordinator)
     }
 }

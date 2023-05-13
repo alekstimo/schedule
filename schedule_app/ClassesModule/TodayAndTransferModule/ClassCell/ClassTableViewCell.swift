@@ -40,6 +40,10 @@ class ClassTableViewCell: UITableViewCell {
         configure()
     }
     
+    func thisDateIsGone() {
+        transferButton.isHidden = true
+    }
+    
     private func configure() {
         timeLabel.font = .systemFont(ofSize: 13)
         classNumberLabel.font = .systemFont(ofSize: 13)

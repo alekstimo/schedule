@@ -16,7 +16,11 @@ class DetailCoordinator: Coordinator, DetailFlow {
     
     
     weak var navigationController: UINavigationController?
-    
+    var date = Date()
+    init(navigationController: UINavigationController, date: Date){
+        self.navigationController = navigationController
+        self.date = date
+    }
     init(navigationController: UINavigationController){
         self.navigationController = navigationController
     }
@@ -25,7 +29,7 @@ class DetailCoordinator: Coordinator, DetailFlow {
         
         let detailViewController = DetailViewController()
         detailViewController.coordinator = self
-        
+        detailViewController.currentDate = date
         navigationController?.pushViewController(detailViewController, animated: true)
     }
     

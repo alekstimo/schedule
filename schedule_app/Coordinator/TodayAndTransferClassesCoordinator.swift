@@ -10,15 +10,21 @@ import UIKit
 
 protocol TodayAndTransferFlow: class {
     func coordinateToTransfer()
-    func coordinateToDetail()
+    func coordinateToDetail(date: Date)
 }
 class TodayAndTransferClassesCoordinator: Coordinator, TodayAndTransferFlow {
     
     weak var navigationController: UINavigationController?
     var title: String?
+    var date = Date()
     init(navigationController: UINavigationController, title: String){
         self.navigationController = navigationController
         self.title = title
+    }
+    init(navigationController: UINavigationController, title: String, date: Date){
+        self.navigationController = navigationController
+        self.title = title
+        self.date = date
     }
     
     func start() {
@@ -26,6 +32,9 @@ class TodayAndTransferClassesCoordinator: Coordinator, TodayAndTransferFlow {
         let todayClassVC = TodayClassesViewController()
         todayClassVC.coordinator = self
         todayClassVC.navigationTitle = title ?? "Error"
+        if date != Date() {
+            todayClassVC.currentDate = date
+        }
         navigationController?.pushViewController(todayClassVC, animated: true)
     }
     
@@ -33,8 +42,8 @@ class TodayAndTransferClassesCoordinator: Coordinator, TodayAndTransferFlow {
         let transferCoordinator = TransferClassCoordinator(navigationController: navigationController!)
         coordinate(to: transferCoordinator)
     }
-    func coordinateToDetail() {
-        let detailCoordinator = DetailCoordinator(navigationController: navigationController!)
+    func coordinateToDetail(date: Date) {
+        let detailCoordinator = DetailCoordinator(navigationController: navigationController!, date: date)
         coordinate(to: detailCoordinator)
     }
    
