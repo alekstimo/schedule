@@ -58,6 +58,10 @@
 		6EDEFB042A0E8F1D008C0F76 /* InDayClassCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EDEFB022A0E8F1D008C0F76 /* InDayClassCollectionViewCell.swift */; };
 		6EDEFB052A0E8F1D008C0F76 /* InDayClassCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EDEFB032A0E8F1D008C0F76 /* InDayClassCollectionViewCell.xib */; };
 		6EDEFB072A0E98FB008C0F76 /* ThisWeekCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EDEFB062A0E98FB008C0F76 /* ThisWeekCoordinator.swift */; };
+		6EDEFB0A2A0F9230008C0F76 /* NowClassStudentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EDEFB082A0F9230008C0F76 /* NowClassStudentViewController.swift */; };
+		6EDEFB0B2A0F9230008C0F76 /* NowClassStudentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EDEFB092A0F9230008C0F76 /* NowClassStudentViewController.xib */; };
+		6EDEFB0F2A0F93ED008C0F76 /* NowClassStudentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EDEFB0D2A0F93ED008C0F76 /* NowClassStudentTableViewCell.swift */; };
+		6EDEFB102A0F93ED008C0F76 /* NowClassStudentTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EDEFB0E2A0F93ED008C0F76 /* NowClassStudentTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -114,6 +118,10 @@
 		6EDEFB022A0E8F1D008C0F76 /* InDayClassCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InDayClassCollectionViewCell.swift; sourceTree = "<group>"; };
 		6EDEFB032A0E8F1D008C0F76 /* InDayClassCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InDayClassCollectionViewCell.xib; sourceTree = "<group>"; };
 		6EDEFB062A0E98FB008C0F76 /* ThisWeekCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThisWeekCoordinator.swift; sourceTree = "<group>"; };
+		6EDEFB082A0F9230008C0F76 /* NowClassStudentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowClassStudentViewController.swift; sourceTree = "<group>"; };
+		6EDEFB092A0F9230008C0F76 /* NowClassStudentViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NowClassStudentViewController.xib; sourceTree = "<group>"; };
+		6EDEFB0D2A0F93ED008C0F76 /* NowClassStudentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowClassStudentTableViewCell.swift; sourceTree = "<group>"; };
+		6EDEFB0E2A0F93ED008C0F76 /* NowClassStudentTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NowClassStudentTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -319,6 +327,9 @@
 		6EDD34722A05328900B99399 /* StudentModule */ = {
 			isa = PBXGroup;
 			children = (
+				6EDEFB0C2A0F93C6008C0F76 /* NowClassCell */,
+				6EDEFB082A0F9230008C0F76 /* NowClassStudentViewController.swift */,
+				6EDEFB092A0F9230008C0F76 /* NowClassStudentViewController.xib */,
 			);
 			path = StudentModule;
 			sourceTree = "<group>";
@@ -368,6 +379,15 @@
 				6EDEFB032A0E8F1D008C0F76 /* InDayClassCollectionViewCell.xib */,
 			);
 			path = ClassCollectionCell;
+			sourceTree = "<group>";
+		};
+		6EDEFB0C2A0F93C6008C0F76 /* NowClassCell */ = {
+			isa = PBXGroup;
+			children = (
+				6EDEFB0D2A0F93ED008C0F76 /* NowClassStudentTableViewCell.swift */,
+				6EDEFB0E2A0F93ED008C0F76 /* NowClassStudentTableViewCell.xib */,
+			);
+			path = NowClassCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -434,8 +454,10 @@
 				6E663ABC2A050C4800843F3D /* Assets.xcassets in Resources */,
 				6EDEFB052A0E8F1D008C0F76 /* InDayClassCollectionViewCell.xib in Resources */,
 				6EB619C92A053CEF008A9023 /* CheckStudentsViewController.xib in Resources */,
+				6EDEFB102A0F93ED008C0F76 /* NowClassStudentTableViewCell.xib in Resources */,
 				6EDEFAFC2A0E8C8C008C0F76 /* DayWeekTableViewCell.xib in Resources */,
 				6E663B032A05278F00843F3D /* MainViewController.xib in Resources */,
+				6EDEFB0B2A0F9230008C0F76 /* NowClassStudentViewController.xib in Resources */,
 				6EBB163E2A066DBA00A59AF9 /* ClassCollectionViewCell.xib in Resources */,
 				6E663AEC2A05111B00843F3D /* ProfileViewController.xib in Resources */,
 				6E663AE82A05110900843F3D /* ScheduleViewController.xib in Resources */,
@@ -472,6 +494,7 @@
 				6E663AF42A05115D00843F3D /* TabBarModel.swift in Sources */,
 				6EDD34772A05332900B99399 /* NowClassViewController.swift in Sources */,
 				6E663AF52A05115D00843F3D /* TabBarController.swift in Sources */,
+				6EDEFB0A2A0F9230008C0F76 /* NowClassStudentViewController.swift in Sources */,
 				6E663AB02A050C3F00843F3D /* AppDelegate.swift in Sources */,
 				6EDEFAFB2A0E8C8C008C0F76 /* DayWeekTableViewCell.swift in Sources */,
 				6EB619CD2A053D14008A9023 /* CheckStudentTableViewCell.swift in Sources */,
@@ -485,6 +508,7 @@
 				6EBB163D2A066DBA00A59AF9 /* ClassCollectionViewCell.swift in Sources */,
 				6E663AD92A05108F00843F3D /* HomeCoordinator.swift in Sources */,
 				6EBB16382A066D9800A59AF9 /* TransferClassViewController.swift in Sources */,
+				6EDEFB0F2A0F93ED008C0F76 /* NowClassStudentTableViewCell.swift in Sources */,
 				6E663B022A05278F00843F3D /* MainViewController.swift in Sources */,
 				6E663ABA2A050C3F00843F3D /* schedule_app.xcdatamodeld in Sources */,
 				6EBB162F2A06571500A59AF9 /* ClassTableViewCell.swift in Sources */,
