@@ -10,6 +10,7 @@ import UIKit
 
 protocol ScheduleFlow: class {
     func coordinateToDetail(date: Date)
+    func coordinareToFilter()
     //Поиск и пр
 }
 
@@ -34,5 +35,9 @@ class ScheduleCoordinator: Coordinator, ScheduleFlow {
         let dateString = dateFormatter.string(from: date)
         let thisDayClassCoordinator = TodayAndTransferClassesCoordinator(navigationController: navigationController!, title: dateString,date: date)
         coordinate(to: thisDayClassCoordinator)
+    }
+    func coordinareToFilter() {
+        let filterCoordinator = FilterCoordinator(navigationController: navigationController!)
+        coordinate(to: filterCoordinator)
     }
 }

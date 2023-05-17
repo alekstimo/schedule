@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="FilterCollectionViewCell" customModule="schedule_app" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="267" height="272"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="267" height="272"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="iEe-VG-olt">
+                        <rect key="frame" x="0.0" y="31" width="267" height="226"/>
+                        <color key="backgroundColor" name="background"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="367-Uo-N5A">
+                            <size key="itemSize" width="128" height="128"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                    </collectionView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nMC-ub-vbj">
+                        <rect key="frame" x="16" y="0.0" width="42" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <color key="backgroundColor" name="background"/>
+            <constraints>
+                <constraint firstItem="nMC-ub-vbj" firstAttribute="leading" secondItem="ZTg-uK-7eu" secondAttribute="leading" constant="16" id="6AR-S8-iY7"/>
+                <constraint firstItem="iEe-VG-olt" firstAttribute="top" secondItem="nMC-ub-vbj" secondAttribute="bottom" constant="10" id="7OO-gE-tzV"/>
+                <constraint firstAttribute="top" secondItem="nMC-ub-vbj" secondAttribute="top" id="aTe-8S-ELP"/>
+                <constraint firstItem="ZTg-uK-7eu" firstAttribute="trailing" secondItem="iEe-VG-olt" secondAttribute="trailing" id="n6P-VK-OTx"/>
+                <constraint firstItem="iEe-VG-olt" firstAttribute="leading" secondItem="ZTg-uK-7eu" secondAttribute="leading" id="nei-Na-cki"/>
+                <constraint firstItem="ZTg-uK-7eu" firstAttribute="bottom" secondItem="iEe-VG-olt" secondAttribute="bottom" constant="15" id="oSK-DR-JWA"/>
+            </constraints>
+            <size key="customSize" width="267" height="272"/>
+            <connections>
+                <outlet property="collectionView" destination="iEe-VG-olt" id="Inb-zw-R0V"/>
+                <outlet property="titleLabel" destination="nMC-ub-vbj" id="r92-pt-Wo6"/>
+            </connections>
+            <point key="canvasLocation" x="257.25190839694653" y="97.887323943661983"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <namedColor name="background">
+            <color red="0.97647058823529409" green="0.97647058823529409" blue="0.97647058823529409" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

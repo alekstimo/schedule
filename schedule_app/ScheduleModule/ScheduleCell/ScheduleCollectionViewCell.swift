@@ -30,5 +30,9 @@ class ScheduleCollectionViewCell: UICollectionViewCell {
         super.awakeFromNib()
         self.layer.cornerRadius = 15
     }
+    override func prepareForReuse() {
+        titleLabel.textColor = .white
+        self.backgroundColor = UIColor(named: "lightRedColor")
+    }
 
 }

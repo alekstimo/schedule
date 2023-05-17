@@ -35,6 +35,11 @@
                     </constraints>
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                     <textInputTraits key="textInputTraits"/>
+                    <connections>
+                        <action selector="editingSearchBarDidBegin:" destination="-1" eventType="editingDidBegin" id="ma2-ab-ryF"/>
+                        <action selector="editingSearchBarDidEnd:" destination="-1" eventType="editingDidEndOnExit" id="iRd-wA-d0Q"/>
+                        <action selector="searchEditing:" destination="-1" eventType="editingChanged" id="oha-B9-1yV"/>
+                    </connections>
                 </textField>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
@@ -52,7 +57,7 @@
     </objects>
     <resources>
         <namedColor name="background">
-            <color red="0.89803921568627454" green="0.89803921568627454" blue="0.89803921568627454" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.97647058823529409" green="0.97647058823529409" blue="0.97647058823529409" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

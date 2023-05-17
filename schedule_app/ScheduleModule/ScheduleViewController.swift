@@ -37,6 +37,7 @@ class ScheduleViewController: UIViewController {
     @IBAction func filterButtonTouched(_ sender: Any) {
         countOfSpacesPtr = countOfSpaces
         collectionView.reloadData()
+        coordinator?.coordinareToFilter()
     }
     private func generateMonth() {
         let calendar = Calendar.current

@@ -64,6 +64,19 @@
 		6EDEFB102A0F93ED008C0F76 /* NowClassStudentTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EDEFB0E2A0F93ED008C0F76 /* NowClassStudentTableViewCell.xib */; };
 		6EDEFB142A0FCA7A008C0F76 /* ScheduleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EDEFB122A0FCA7A008C0F76 /* ScheduleCollectionViewCell.swift */; };
 		6EDEFB152A0FCA7A008C0F76 /* ScheduleCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EDEFB132A0FCA7A008C0F76 /* ScheduleCollectionViewCell.xib */; };
+		6EDEFB1A2A14E3FE008C0F76 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EDEFB192A14E3FE008C0F76 /* ImageLoader.swift */; };
+		6EDEFB1C2A14E424008C0F76 /* UIImageView+ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EDEFB1B2A14E424008C0F76 /* UIImageView+ImageLoader.swift */; };
+		6EDEFB202A14E507008C0F76 /* ProfileCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EDEFB1E2A14E507008C0F76 /* ProfileCollectionViewCell.swift */; };
+		6EDEFB212A14E507008C0F76 /* ProfileCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EDEFB1F2A14E507008C0F76 /* ProfileCollectionViewCell.xib */; };
+		6EDEFB252A150125008C0F76 /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EDEFB232A150125008C0F76 /* FilterViewController.swift */; };
+		6EDEFB262A150125008C0F76 /* FilterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EDEFB242A150125008C0F76 /* FilterViewController.xib */; };
+		6EDEFB2A2A1501C2008C0F76 /* FilterCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EDEFB282A1501C2008C0F76 /* FilterCollectionViewCell.swift */; };
+		6EDEFB2B2A1501C2008C0F76 /* FilterCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EDEFB292A1501C2008C0F76 /* FilterCollectionViewCell.xib */; };
+		6EDEFB2F2A1501F4008C0F76 /* ScrollElementsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EDEFB2D2A1501F4008C0F76 /* ScrollElementsCollectionViewCell.swift */; };
+		6EDEFB302A1501F4008C0F76 /* ScrollElementsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EDEFB2E2A1501F4008C0F76 /* ScrollElementsCollectionViewCell.xib */; };
+		6EDEFB322A150C44008C0F76 /* FilterCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EDEFB312A150C44008C0F76 /* FilterCoordinator.swift */; };
+		6EDEFB362A15134B008C0F76 /* ClassNameCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EDEFB342A15134B008C0F76 /* ClassNameCollectionViewCell.swift */; };
+		6EDEFB372A15134B008C0F76 /* ClassNameCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EDEFB352A15134B008C0F76 /* ClassNameCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -126,6 +139,19 @@
 		6EDEFB0E2A0F93ED008C0F76 /* NowClassStudentTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NowClassStudentTableViewCell.xib; sourceTree = "<group>"; };
 		6EDEFB122A0FCA7A008C0F76 /* ScheduleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleCollectionViewCell.swift; sourceTree = "<group>"; };
 		6EDEFB132A0FCA7A008C0F76 /* ScheduleCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScheduleCollectionViewCell.xib; sourceTree = "<group>"; };
+		6EDEFB192A14E3FE008C0F76 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		6EDEFB1B2A14E424008C0F76 /* UIImageView+ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+ImageLoader.swift"; sourceTree = "<group>"; };
+		6EDEFB1E2A14E507008C0F76 /* ProfileCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCollectionViewCell.swift; sourceTree = "<group>"; };
+		6EDEFB1F2A14E507008C0F76 /* ProfileCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileCollectionViewCell.xib; sourceTree = "<group>"; };
+		6EDEFB232A150125008C0F76 /* FilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
+		6EDEFB242A150125008C0F76 /* FilterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FilterViewController.xib; sourceTree = "<group>"; };
+		6EDEFB282A1501C2008C0F76 /* FilterCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterCollectionViewCell.swift; sourceTree = "<group>"; };
+		6EDEFB292A1501C2008C0F76 /* FilterCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FilterCollectionViewCell.xib; sourceTree = "<group>"; };
+		6EDEFB2D2A1501F4008C0F76 /* ScrollElementsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollElementsCollectionViewCell.swift; sourceTree = "<group>"; };
+		6EDEFB2E2A1501F4008C0F76 /* ScrollElementsCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScrollElementsCollectionViewCell.xib; sourceTree = "<group>"; };
+		6EDEFB312A150C44008C0F76 /* FilterCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterCoordinator.swift; sourceTree = "<group>"; };
+		6EDEFB342A15134B008C0F76 /* ClassNameCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassNameCollectionViewCell.swift; sourceTree = "<group>"; };
+		6EDEFB352A15134B008C0F76 /* ClassNameCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ClassNameCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +184,7 @@
 		6E663AAE2A050C3F00843F3D /* schedule_app */ = {
 			isa = PBXGroup;
 			children = (
+				6EDEFB172A14E3D8008C0F76 /* Services */,
 				6EBB16352A066D7500A59AF9 /* TransferClassModule */,
 				6EBB16262A0656AE00A59AF9 /* ClassesModule */,
 				6E663AF62A0512BE00843F3D /* AutorizationModule */,
@@ -192,6 +219,7 @@
 				6EBB16312A065DE800A59AF9 /* TodayAndTransferClassesCoordinator.swift */,
 				6EBB163F2A0E7D4400A59AF9 /* TransferClassCoordinator.swift */,
 				6EDEFB062A0E98FB008C0F76 /* ThisWeekCoordinator.swift */,
+				6EDEFB312A150C44008C0F76 /* FilterCoordinator.swift */,
 			);
 			path = Coordinator;
 			sourceTree = "<group>";
@@ -209,6 +237,7 @@
 		6E663ADE2A0510B400843F3D /* ScheduleModule */ = {
 			isa = PBXGroup;
 			children = (
+				6EDEFB222A150105008C0F76 /* FilterModule */,
 				6EDEFB112A0FCA57008C0F76 /* ScheduleCell */,
 				6E663AE52A05110900843F3D /* ScheduleViewController.swift */,
 				6E663AE62A05110900843F3D /* ScheduleViewController.xib */,
@@ -219,6 +248,7 @@
 		6E663ADF2A0510C200843F3D /* ProfileModule */ = {
 			isa = PBXGroup;
 			children = (
+				6EDEFB1D2A14E4E3008C0F76 /* ProfileCollectionViewCell */,
 				6E663AE92A05111B00843F3D /* ProfileViewController.swift */,
 				6E663AEA2A05111B00843F3D /* ProfileViewController.xib */,
 			);
@@ -404,6 +434,71 @@
 			path = ScheduleCell;
 			sourceTree = "<group>";
 		};
+		6EDEFB172A14E3D8008C0F76 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				6EDEFB182A14E3E2008C0F76 /* ImageLoader */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		6EDEFB182A14E3E2008C0F76 /* ImageLoader */ = {
+			isa = PBXGroup;
+			children = (
+				6EDEFB192A14E3FE008C0F76 /* ImageLoader.swift */,
+				6EDEFB1B2A14E424008C0F76 /* UIImageView+ImageLoader.swift */,
+			);
+			path = ImageLoader;
+			sourceTree = "<group>";
+		};
+		6EDEFB1D2A14E4E3008C0F76 /* ProfileCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				6EDEFB1E2A14E507008C0F76 /* ProfileCollectionViewCell.swift */,
+				6EDEFB1F2A14E507008C0F76 /* ProfileCollectionViewCell.xib */,
+			);
+			path = ProfileCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		6EDEFB222A150105008C0F76 /* FilterModule */ = {
+			isa = PBXGroup;
+			children = (
+				6EDEFB272A150132008C0F76 /* FilterTableCell */,
+				6EDEFB232A150125008C0F76 /* FilterViewController.swift */,
+				6EDEFB242A150125008C0F76 /* FilterViewController.xib */,
+			);
+			path = FilterModule;
+			sourceTree = "<group>";
+		};
+		6EDEFB272A150132008C0F76 /* FilterTableCell */ = {
+			isa = PBXGroup;
+			children = (
+				6EDEFB332A151318008C0F76 /* ClassNameFilterCell */,
+				6EDEFB2C2A1501C7008C0F76 /* ScrollCollectionCell */,
+				6EDEFB282A1501C2008C0F76 /* FilterCollectionViewCell.swift */,
+				6EDEFB292A1501C2008C0F76 /* FilterCollectionViewCell.xib */,
+			);
+			path = FilterTableCell;
+			sourceTree = "<group>";
+		};
+		6EDEFB2C2A1501C7008C0F76 /* ScrollCollectionCell */ = {
+			isa = PBXGroup;
+			children = (
+				6EDEFB2D2A1501F4008C0F76 /* ScrollElementsCollectionViewCell.swift */,
+				6EDEFB2E2A1501F4008C0F76 /* ScrollElementsCollectionViewCell.xib */,
+			);
+			path = ScrollCollectionCell;
+			sourceTree = "<group>";
+		};
+		6EDEFB332A151318008C0F76 /* ClassNameFilterCell */ = {
+			isa = PBXGroup;
+			children = (
+				6EDEFB342A15134B008C0F76 /* ClassNameCollectionViewCell.swift */,
+				6EDEFB352A15134B008C0F76 /* ClassNameCollectionViewCell.xib */,
+			);
+			path = ClassNameFilterCell;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -465,15 +560,20 @@
 				6E663ABF2A050C4800843F3D /* LaunchScreen.storyboard in Resources */,
 				6E663AF02A05112E00843F3D /* DetailViewController.xib in Resources */,
 				6EBB16392A066D9800A59AF9 /* TransferClassViewController.xib in Resources */,
+				6EDEFB302A1501F4008C0F76 /* ScrollElementsCollectionViewCell.xib in Resources */,
 				6E663ABC2A050C4800843F3D /* Assets.xcassets in Resources */,
 				6EDEFB052A0E8F1D008C0F76 /* InDayClassCollectionViewCell.xib in Resources */,
+				6EDEFB372A15134B008C0F76 /* ClassNameCollectionViewCell.xib in Resources */,
 				6EB619C92A053CEF008A9023 /* CheckStudentsViewController.xib in Resources */,
 				6EDEFB152A0FCA7A008C0F76 /* ScheduleCollectionViewCell.xib in Resources */,
 				6EDEFB102A0F93ED008C0F76 /* NowClassStudentTableViewCell.xib in Resources */,
+				6EDEFB262A150125008C0F76 /* FilterViewController.xib in Resources */,
 				6EDEFAFC2A0E8C8C008C0F76 /* DayWeekTableViewCell.xib in Resources */,
+				6EDEFB2B2A1501C2008C0F76 /* FilterCollectionViewCell.xib in Resources */,
 				6E663B032A05278F00843F3D /* MainViewController.xib in Resources */,
 				6EDEFB0B2A0F9230008C0F76 /* NowClassStudentViewController.xib in Resources */,
 				6EBB163E2A066DBA00A59AF9 /* ClassCollectionViewCell.xib in Resources */,
+				6EDEFB212A14E507008C0F76 /* ProfileCollectionViewCell.xib in Resources */,
 				6E663AEC2A05111B00843F3D /* ProfileViewController.xib in Resources */,
 				6E663AE82A05110900843F3D /* ScheduleViewController.xib in Resources */,
 				6EDD34782A05332900B99399 /* NowClassViewController.xib in Resources */,
@@ -496,6 +596,7 @@
 				6EB619D02A0542D3008A9023 /* NowClassCoordinator.swift in Sources */,
 				6E663AE72A05110900843F3D /* ScheduleViewController.swift in Sources */,
 				6E663AEF2A05112E00843F3D /* DetailViewController.swift in Sources */,
+				6EDEFB1C2A14E424008C0F76 /* UIImageView+ImageLoader.swift in Sources */,
 				6E663AF92A05132400843F3D /* LogInViewController.swift in Sources */,
 				6EDEFAF62A0E8BD1008C0F76 /* ThisWeekViewController.swift in Sources */,
 				6EB619D22A0543DF008A9023 /* CheckInCoordinator.swift in Sources */,
@@ -512,19 +613,26 @@
 				6EDEFB0A2A0F9230008C0F76 /* NowClassStudentViewController.swift in Sources */,
 				6E663AB02A050C3F00843F3D /* AppDelegate.swift in Sources */,
 				6EDEFAFB2A0E8C8C008C0F76 /* DayWeekTableViewCell.swift in Sources */,
+				6EDEFB2F2A1501F4008C0F76 /* ScrollElementsCollectionViewCell.swift in Sources */,
 				6EB619CD2A053D14008A9023 /* CheckStudentTableViewCell.swift in Sources */,
+				6EDEFB362A15134B008C0F76 /* ClassNameCollectionViewCell.swift in Sources */,
 				6EBB16322A065DE800A59AF9 /* TodayAndTransferClassesCoordinator.swift in Sources */,
 				6EB619C82A053CEF008A9023 /* CheckStudentsViewController.swift in Sources */,
 				6EDEFB142A0FCA7A008C0F76 /* ScheduleCollectionViewCell.swift in Sources */,
 				6E663AD62A05108F00843F3D /* StartCoordinator.swift in Sources */,
 				6EBB162A2A0656F200A59AF9 /* TodayClassesViewController.swift in Sources */,
 				6EDEFB072A0E98FB008C0F76 /* ThisWeekCoordinator.swift in Sources */,
+				6EDEFB1A2A14E3FE008C0F76 /* ImageLoader.swift in Sources */,
 				6EBB16402A0E7D4400A59AF9 /* TransferClassCoordinator.swift in Sources */,
 				6E663AFE2A05251B00843F3D /* MenuTableViewCell.swift in Sources */,
+				6EDEFB322A150C44008C0F76 /* FilterCoordinator.swift in Sources */,
 				6EBB163D2A066DBA00A59AF9 /* ClassCollectionViewCell.swift in Sources */,
 				6E663AD92A05108F00843F3D /* HomeCoordinator.swift in Sources */,
 				6EBB16382A066D9800A59AF9 /* TransferClassViewController.swift in Sources */,
 				6EDEFB0F2A0F93ED008C0F76 /* NowClassStudentTableViewCell.swift in Sources */,
+				6EDEFB252A150125008C0F76 /* FilterViewController.swift in Sources */,
+				6EDEFB2A2A1501C2008C0F76 /* FilterCollectionViewCell.swift in Sources */,
+				6EDEFB202A14E507008C0F76 /* ProfileCollectionViewCell.swift in Sources */,
 				6E663B022A05278F00843F3D /* MainViewController.swift in Sources */,
 				6E663ABA2A050C3F00843F3D /* schedule_app.xcdatamodeld in Sources */,
 				6EBB162F2A06571500A59AF9 /* ClassTableViewCell.swift in Sources */,
